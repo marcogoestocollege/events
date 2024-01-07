@@ -1,0 +1,11 @@
+StartTime ;EndTime   ;EventName   ;Description ; Stage
+18:30     ;19:30     ;Event 1     ;Description ;Stage 1
+19:45     ;20:15     ;Event 2     ;Description ;Stage 2
+21:00     ;22:30     ;Event 3     ;Description ;Stage 3
+23:00     ;23:45     ;Event 4     ;Description ;Stage 3
+20:30     ;21:45     ;Event 5     ;Description ;Stage 3
+22:15     ;22:45     ;Event 6     ;Description ;Stage 1
+19:00     ;20:30     ;Event 7     ;Description ;Stage 1
+22:30     ;23:15     ;Event 8     ;Description ;Stage 2
+21:15     ;21:45     ;Event 9     ;Description ;Stage 1
+23:30     ;00:15     ;Event 10    ;Description ;Stage 2

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#timetable-container {
+    overflow-x: auto;
+}
+
+#timetable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#timetable th, #timetable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#timetable th {
+    background-color: #f2f2f2;
+}
+
+.event {
+    position: relative;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px;
+    margin: 2px 0;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.popup {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
