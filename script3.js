@@ -2,22 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const tbody = document.querySelector('#timetable tbody');
     const timetable = document.getElementById('timetable');
 
-    // Specify the URL of the CSV file
-    const csvFileUrl = 'https://drive.google.com/uc?export=download&id=1iA7c4Az2p2SWPqSqwOatfbBNGGLxiMC1';
-
-    fetch(csvFileUrl) {mode: 'no-cors'}
-        .then(response => response.text())
-        .then(csvData => {
-            Papa.parse(csvData, {
-                header: true,
-                dynamicTyping: true,
-                complete: function (result) {
-                    const eventData = result.data;
-                    populateTimetable(eventData);
-                },
-            });
-        })
-        .catch(error => console.error('Error fetching CSV file:', error));
+    // Use the JSON data instead of fetching from CSV
+    const eventData = eventDataJSON;
+    populateTimetable(eventData);
 
     // Function to populate the timetable with data
     function populateTimetable(eventData) {
