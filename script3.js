@@ -1,15 +1,3 @@
-// JSON data containing event information
-const eventDataJSON = [
-  {
-    "StartTime": new Date("2024-01-02T18:30:00.000Z"),
-    "EndTime": new Date("2024-01-02T19:30:00.000Z"),
-    "EventName": "Event 1",
-    "Description": "Description for Event 1",
-    "Stage": 1
-  },
-  // Add more events as needed...
-];
-
 // Function to populate the timetable with data
 function populateTimetable(eventData) {
     // Function to check for overlapping events
